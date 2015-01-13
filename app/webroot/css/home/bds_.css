@@ -1,0 +1,148 @@
+.search select  {
+    background: none repeat scroll 0 0 #75CEF7;
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    margin: 0 9px 0 0;
+    padding: 6px;
+    text-shadow: 0 1px 1px #55B5E1;
+    width:132px
+}
+
+.video ul li span{
+    background: url("../../img/home/view-more.gif") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 19px;
+    padding: 0 0 0 8px;
+	}
+	
+	
+.video ul li a.view-more{
+    background: url("../../img/home/view-more.gif") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+	margin-left:20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 8px 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #074B6B;
+    text-transform: uppercase;
+    width: auto;
+}
+.newsletter{ height: 200px}
+
+.newsletter{ margin-bottom: -10px }
+
+.newsletter input {
+    background: url("../../img/home/newsletter-text.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #686868;
+    font-family: 'Georgia';
+    font-size: 12px;
+    font-style: italic;
+    margin: 0px;
+    padding: 4px;
+    width: 200px;
+	height:35px;
+}
+
+.newsletter form {
+    background: none;
+    border: 0 none;
+    height: 35px;
+    width: 315px;
+}
+
+.newsletter input.btnsend {
+	background: url("../../img/home/reg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #1A81B0;
+    text-transform: uppercase;
+    width: 201px;
+}
+
+.newsletter input.contact {
+	background: url("../../img/home/reg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #1A81B0;
+    text-transform: uppercase;
+    width: 201px;
+margin-top:10px;
+}
+
+
+
+.video ul li {
+    float: left;
+    margin: 0 16px 8px 0;
+}
+
+#callus-update .main-call {
+    width: 375px;
+}
+
+.callus a{ text-decoration:none}
+
+.options { width: 910px; margin-bottom:10px }
+
+.options span{ float: left; font-family: arial; font-size:12px}
+
+a.switch-thumb{ margin:0}
+
+.options select  {
+    background: none repeat scroll 0 0 #75CEF7;
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    margin: 0 9px 0 0;
+    padding: 6px;
+    text-shadow: 0 1px 1px #55B5E1;
+    width:auto
+}
+
+a.switch-thumb { position: static; float: left}
+
+
+
+.properties{ width:340px}
+
+.properties .grid{ width:345px}
+
+
+
+.properties .grid span {
+    float: right;
+    font-weight: bold;
+    margin-right: 25px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+
+.properties .grid label a:link, .grid label a:visited {
+    color: #FF0000;
+    font-size: 11px;
+    margin-left: 180px;
+    text-decoration: none;
+}
+
+/*======FONTS=====*/
+
+
+
+
+
+
+
+
+

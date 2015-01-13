@@ -1,0 +1,196 @@
+
+.clear:after {
+	content: ".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+#container {
+	width:960px; 
+	margin:0 auto;			
+}
+
+/*LOGO*/
+.logo {
+	width:262x;
+	float:left;
+	position:relative;
+}
+.logo h1 a { 
+	display:block; 
+	text-decoration:none;
+	background:url(../../img/home/logo.png) no-repeat top left;	
+	width:262px;
+	height:68px;
+	cursor:pointer;	
+	/*margin:6px 0 0 -6px;*/
+	margin: 13px 0 0 5px;
+}
+
+/*MENU*/
+.menu {
+	float:right;
+	margin:35px 0 0 20px;	
+}
+.menu li {
+	float:left;
+	display:block;
+	padding:0;	
+	position:relative;
+	margin:0 0 0 28px;	
+}
+.menu li a:link, .menu li a:visited {
+	float:left;
+	font-size:12px;
+	display:block;
+	width:auto;
+	text-decoration:none;
+	color:#333;
+	padding:2px 0 30px 0;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;	
+	text-shadow:0 1px 1px #FFF;
+	cursor:pointer;		
+}
+.menu li a:hover {
+	color:#0e668f;
+}
+.menu li a.activelink:link, .menu li a.activelink:visited {
+	color:#0e668f;
+	text-decoration:none;
+	border-bottom:3px solid #383838;	
+}
+.menu li a.activelink:hover {
+	color:#0e668f;
+	text-decoration:none;		
+}
+
+/*FILLUPFORMS*/
+.fillupform h2 {
+	font-size:18px;
+}
+.fillupform li {
+	float:left;
+	color:#333;
+	margin:15px 0 0 0;
+	width:100%;	
+}
+.fillupform ul li label {
+	display:block;
+	width:85px;
+	padding:8px 8px 8px 0;
+	text-align:left;
+	color:#333;
+	float:left;	
+}
+.fillupform input,
+.fillupform textarea {
+	width:300px;
+	width:290px\9; /*RENDERS IE BROWSERS*/
+	border:1px solid #DDD;	
+	padding:8px;
+	background:#FFF;
+	color:#333;
+	float:left;	
+	margin:0 10px 0 0;	
+	border-radius:6px;
+	-moz-border-radius:6px;	
+	-webkit-border-radius:6px;		
+}
+.fillupform textarea {
+	width:525px;
+	height:150px;	
+}
+.fillupform input.btsubmit,
+.fillupform input.btsubmitcomment {
+	width:156px;
+	height:50px;
+	color:#FFF;
+	margin:15px 10px 20px -11px;
+	padding:6px;
+	text-align:center;
+	text-transform:uppercase;
+	text-shadow:0 1px 1px #0f6e9a;
+	border:0;	
+	cursor:pointer;		
+	font-size:14px;	
+	font-weight:bold;	
+	background:url(../../img/home/btnsubmit.png) no-repeat;
+}
+.fillupform input.btsubmitcomment {
+	width:186px;
+	height:50px;
+	background:url(../../img/home/btncomment.png) no-repeat;
+}
+/*LABELERROR*/ 
+.fillupform ul li label span {
+	float:left;
+}
+.fillupform ul li label.error,
+.fillupform ul li label.req {
+	color:#FF0000;
+	font-size:11px;
+	font-weight:normal;
+	font-family:'Georgia';
+	font-style:italic;	
+	padding:0;
+	float:left;
+	margin:1px 0 0 2px;	
+	display:block;
+}
+.fillupform ul li label.req {
+	color:#333;	
+}
+
+/*FOOTER*/
+.footer {
+	color:#333;
+	width:910px;
+	padding:20px 25px 20px 25px;	
+	text-shadow:0 1px 1px #FFF;
+	background:url('../../img/home/hf-bg.jpg') repeat;
+	overflow:hidden;
+	font-size:12px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;	
+	-moz-border-radius-bottomleft:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-webkit-border-bottom-right-radius:6px;	
+}
+.footer a:link, .footer a:visited {
+	color:#333;
+	text-decoration:none;
+}
+.footer a:hover {
+	color:#333;
+	text-decoration:underline;
+	text-shadow:0 1px 1px #FFF;
+}
+.footer label {
+	display:block;
+	margin:0 0 6px 0;
+}
+.links {
+	float:left;
+	width:500px;
+}
+.credits {
+	float:right;	
+	text-align:right;
+}
+.credits label a.btop:link, .credits label a.btop:visited {
+	color:#920c0c;
+	text-shadow:0 1px 1px #FFF;
+	text-decoration:none;
+	font-size:10px;
+	background:url('../../img/home/arrows/arrow-top.png') no-repeat right;
+	padding:6px 30px 4px 0;	
+	padding-top:4px\9; /*RENDERS IE BROWSERS*/	
+}
+.credits label a.btop:hover {
+	text-decoration:underline;
+}
+

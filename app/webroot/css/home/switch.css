@@ -1,0 +1,33 @@
+/*OPTION VIEWS*/
+.list-view .content-block {
+	width:550px;	
+}
+.list-view .content-block label {
+	overflow:hidden;
+}
+.list-view .content-block img{
+	float:left;
+	margin:0 15px 0 0;
+}
+.list-view .content-block span {
+	float:none;
+	margin:0 0 0 10px;
+}
+
+a.switch-thumb {
+    width:122px;
+    height:15px;
+    line-height:26px;
+    padding:0;
+    margin:10px 0;
+    display:block;
+    background:url(../img/switch.png) no-repeat;
+    outline:none;
+    text-indent:-9999px;
+	position:absolute;
+	top:25px;
+	right:-52px;
+}
+a.swap { 
+	background-position: left bottom; 
+}

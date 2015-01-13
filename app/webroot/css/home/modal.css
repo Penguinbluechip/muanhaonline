@@ -1,0 +1,140 @@
+#fade {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; 
+	height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup{
+	display: none;
+	background: #E6E6E6;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; 
+	left: 50%;
+	font-size:12px;
+	z-index: 99999;
+	padding:15px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;	
+	box-shadow: 0px 0px 8px #000;
+	-webkit-box-shadow: 0px 0px 8px #000;
+	-moz-box-shadow: 0px 0px 8px #000;		
+}
+.popup h2 {
+	font-weight:bold;
+	font-size:18px;
+	background:#9E9E9E;
+	padding:8px 0 8px 0;
+	margin:0 0 20px 0;
+	font-family:'TitilliumText22LBold';
+	text-shadow:0 1px 1px #d5d5d5;
+	text-transform:uppercase;
+	text-align:center;
+	border-radius:6px;
+	-moz-border-radius:6px;	
+	-webkit-border-radius: 6px;
+}
+.popup ul {
+	overflow:hidden;
+}
+.popup ul li {
+	margin:0 0 12px 0;
+	text-shadow:0 1px 1px #FFF;
+}
+.popup ul li label {
+	text-align:right;
+	width:100px;
+	display:block;
+	float:left;
+	margin:6px 10px 0 0;
+}
+.popup ul li span {
+	margin:0 4px 0 0;
+}
+.popup ul li span.error {
+	color:#FF0000;
+	text-shadow:0 1px 1px #FFF;
+}
+.popup ul li input,
+.popup ul li input.small,
+.popup ul li select,
+.popup ul li input.large {
+	background:#FFF;
+	border:1px solid #D2D2D2;
+	padding:6px;
+	width:180px;
+	margin:0 6px 0 0;
+	border-radius:6px;
+	-moz-border-radius:6px;	
+	-webkit-border-radius: 6px;
+}
+.popup ul li input.large {
+	width:271px;
+}
+.popup ul li input.small,
+.popup ul li select.small  {
+	width:90px;
+}
+.popup ul li select {
+	width:193px;
+}
+.popup ul li select.large {
+	width:283px;
+}
+.popup div {
+	border-top:1px solid #CECECE;
+	padding:15px 0 0 0;
+	margin:20px 0 0 0;
+}
+.popup div input {
+	background:url('../../img/home/btnmodal.png') no-repeat;
+	width:111px;
+	height:39px;
+	cursor:pointer;
+	border:0;
+	font-family:'TitilliumText22LBold';
+	font-size:16px;
+	text-shadow:0 1px 1px #dedede;
+	text-transform:uppercase;
+	float:left;
+}
+.popup div label {
+	font-size:14px;
+	text-shadow:0 1px 1px #FFF;
+	display:block;
+	text-align:center;
+	width:240px;
+	float:left;
+}
+.popup div label.text {
+	font-style:italic;
+	width:290px;
+}
+.popup div span {
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+	width:240px;
+	text-align:center;
+	text-shadow:0 1px 1px #FFF;
+	float:left;
+}
+img.btn_close {
+	float:right; 
+	margin:-25px -25px 0 0;
+}
+
+
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup {
+	position: absolute;
+}

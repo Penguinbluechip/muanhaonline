@@ -1,0 +1,88 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height:20px;
+	background:#FFF url('../../img/home/bg.jpg') repeat-x top;
+	color:#333;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;		
+	margin:0 0 30px 0;
+}
+body#subpage {
+	background:#FFF url('../../img/home/bg-subpage.jpg') repeat-x top center;
+}
+body#pattern2 {
+	background:#FFF url('../../img/home/bg-subpage-2.jpg') repeat-x top center;
+}
+body#pattern3 {
+	background:#FFF url('../../img/home/bg-subpage-3.jpg') repeat-x top center;
+}
+body#pattern4 {
+	background:#FFF url('../../img/home/bg-subpage-4.jpg') repeat-x top center;
+}
+body#pattern5 {
+	background:#FFF url('../../img/home/bg-subpage-5.jpg') repeat-x top center;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin:0 0 6px 0;
+}
+th {
+	width:86px;
+	padding:2px;
+}
+td {
+	text-align:left;
+	padding:2px;
+}
+
+h2 {
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	color:#333;
+}
+input,
+textarea,
+select {
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+}

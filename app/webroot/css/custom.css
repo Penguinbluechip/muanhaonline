@@ -1,0 +1,461 @@
+div.actions li ul {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+#header a
+{
+    color: #fff;
+}
+
+#main_nav ul li
+{
+    float:left;
+}
+
+#main_nav ul li ul li
+{
+    float: none;
+    margin-left:0;
+}
+
+#input_table input
+{
+    text-align: right;
+    font-size:14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#image-list .image-item
+{
+    float:left;
+    padding:10px;
+    clear: none;
+}
+
+#map_canvas div
+{
+    clear: none;
+    margin-bottom: auto;
+    padding: 0;
+    vertical-align: text-top;
+}
+
+div.product_form
+{
+
+    border-left: none;
+    float: none;
+    padding: 10px 2%;
+    width: 100%;
+}
+
+
+label {
+    float: left;
+    margin-right: 10px;
+}
+
+input, textarea {
+    width: auto;
+}
+
+form div {
+    padding: 0;
+}
+
+#google-map
+{
+    margin-top:10px;
+    border:solid 2px #cccccc;
+}
+
+.find_location
+{
+    margin-bottom: 10px;
+    font-size: 100%;
+    margin-left:200px;
+}
+
+#UserProfileBirthdayHour, #UserProfileBirthdayMin, #UserProfileBirthdayMeridian,
+#ProductExpireDateMeridian, #ProductExpireDateMin, #ProductExpireDateHour,
+#ProductCreateDateMeridian, #ProductCreateDateMin, #ProductCreateDateHour,
+#ProductBuildDateMeridian, #ProductBuildDateMin, #ProductBuildDateHour,
+#ProjectCreateDateMeridian, #ProjectCreateDateMin, #ProjectCreateDateHour,
+#ProjectBuildStartHour, #ProjectBuildStartMin, #ProjectBuildStartMeridian, #ProjectBuildStartDay,
+#ProjectBuildEndDay, #ProjectBuildEndHour, #ProjectBuildEndMin, #ProjectBuildEndMeridian,
+#ProjectBuildStartRealHour, #ProjectBuildStartRealMin, #ProjectBuildStartRealMeridian,
+#ProjectBuildBaseRealHour, #ProjectBuildBaseRealMin, #ProjectBuildBaseRealMeridian,
+#ProjectBuildEndRealHour, #ProjectBuildEndRealMin, #ProjectBuildEndRealMeridian,
+#ProjectBuildBookHour, #ProjectBuildBookMin, #ProjectBuildBookMeridian
+{
+    display:none;
+}
+
+div.actions ul li.active a {
+    background: -moz-linear-gradient(center top , #fff, #fff) repeat scroll 0 0 #fff;
+    background-color: #fff; 
+}
+
+#main_nav ul li.activelink {
+    border-bottom: 3px solid #EE3322;
+    float: left;
+}
+
+
+.lot_detail .input
+{
+    float: left;
+    clear: none;
+    width:195px;
+}
+
+.lot_detail input
+{
+    width: 50px;
+}
+
+.lot_detail label
+{
+    text-align: right;
+    width: 95px;
+}
+
+form .required {
+    font-weight: normal;
+}
+
+.type_detail .input
+{
+    float: left;
+    clear: none;
+    min-width:140px;
+}
+
+.type_detail input
+{
+    width: 50px;
+}
+
+.type_detail label
+{
+    text-align: left;    
+}
+
+.price_detail .input
+{
+    float: left;
+    clear: none;
+    width: 195px;    
+}
+
+
+.products td
+{
+    background: none repeat scroll 0 0 #ffffff !important;
+}
+
+.altrow td
+{
+    background: none repeat scroll 0 0 #F5F5F5 !important;
+}
+
+
+div.error-message {
+    background: none;
+    color: red;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+
+.submit_buts .submit
+{
+    float: left;
+    clear: none;
+    margin-right: 20px
+}
+
+div.actions ul li.active a {
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+input.form-error
+{
+    border: 1px solid red;
+}
+
+#gtable td {    
+    text-align: center !important;
+}
+
+#gtable input {    
+    text-align: right !important;
+}
+
+.motabds ul li {
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 275px;
+}
+
+#gtable input {
+    width: 100px;
+}
+
+sup {
+vertical-align: super;
+font-size: smaller;
+}
+
+.thongtincanho p, .thongtincanho a
+{
+    font-family: Arial !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+}
+
+
+.district_checkboxs
+{
+    float: left;
+    clear: none;
+    width: 150px;
+}
+
+label[for=DistrictDistrict]
+{
+    clear: both;
+    width: 100%;
+}
+
+.nganluong_icon_link
+{
+    margin: 10px;
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-right: solid 1px #ccc;
+    float: left;
+}
+
+.sms_icon_link
+{
+    margin: 10px;
+    width: 40%;
+    padding: 10px 20px 10px 10px;
+    text-align: center;
+    float: left;
+}
+
+.nganluong_icon_link h2, .sms_icon_link h2
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #920C0C;
+    background: none;
+    
+}
+
+.sms_icon_link strong
+{
+    font-size: 18px;
+    font-family: Tahoma;
+}
+
+
+#p_image_list li
+{
+    list-style: none;
+    float: left;
+    width: 100px;
+}
+
+.facade_input
+{
+    float: left;
+    clear: none;
+    margin-right: 30px;
+}
+
+
+.remain_hours span {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #AAAAAA;
+    display: none;
+    margin-left: 10px;
+    margin-top: -3px;
+    padding: 3px 5px;
+    position: absolute;
+}
+
+.remain_hours:hover span
+{
+    display: block;
+}
+
+.remain_hours
+{
+    text-align: center;
+}
+
+.actions
+{
+    text-align: left !important;
+}
+
+.actions a {
+    margin-left: 0 !important;
+}
+
+
+div.actions ul li.active a {
+    background: none repeat scroll 0 0 #AAAC62;
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+.actions h4
+{
+    font-weight: bold;
+}
+
+.actions form
+{
+    padding-left: 15px;
+}
+
+div.expert_leftbar ul li a, td.expert_leftbar a
+{
+    text-shadow: none;
+    background: none;
+    padding: 5px 8px;
+    border: none;
+}
+
+div.expert_leftbar ul li a, td.expert_leftbar a:hover
+{
+    text-decoration: none !important;
+}
+#main_nav
+{
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+.user_mainbar
+{
+    width: 100%;
+}
+.user_mainbar ul {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 100%;
+    background: #1f7287;
+}
+.user_mainbar ul li {
+    float: left;
+    height: auto;
+    padding: 10px;
+    width: auto;
+    margin: 0;
+    list-style: none;
+}
+.user_mainbar ul li:hover, .user_mainbar ul li.activelink {
+    background: #4997aa;
+    border: none !important;
+}
+.user_mainbar ul li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+.user_mainbar ul li ul {
+    display: none;
+    margin-left: -10px;
+    margin-top: 10px;
+    position: absolute;
+    width: auto;
+    z-index: 1000;
+}
+.user_mainbar ul li:hover ul {
+    display: block;
+}
+.user_mainbar ul li ul li
+{
+    
+}
+
+.user_mainbar ul li ul li.activelink {
+    float: none !important;
+    border: none !important;
+    background: #c9e8f0;
+}
+.user_mainbar ul li ul li a
+{
+    padding-left: 5px; 
+}
+.user_mainbar ul li ul li.activelink a{
+    color: #333;
+}
+.user_mainbar ul li ul li ul
+{
+    display: none;
+}
+.user_mainbar ul li:hover ul li ul {
+    display: none;
+}
+h1.page-title
+{
+    font-size: 12px;
+    margin-bottom: 5px;
+    clear: both;
+    padding: 5px;
+    background: #DDD;
+}
+div.product_form
+{
+    padding: 0;
+}
+div.product_form form
+{
+    width: 100%;
+}
+.actions
+{
+    padding-left: 0 !important;
+}
+.actions h3:first-child
+{
+    margin-top: 0 !important;
+}
+#UserManagerChangepasswordForm label
+{
+    width: 180px;
+}
+.meta label
+{
+    width: 60px;
+}
+.meta input
+{
+    width: 300px;
+}
+.meta textarea
+{
+    height: 50px;
+}
+.meta
+{
+    border-top:solid 1px #aaa;padding-top:20px
+}

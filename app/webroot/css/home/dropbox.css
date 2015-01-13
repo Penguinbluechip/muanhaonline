@@ -1,0 +1,61 @@
+.dropdown dd, 
+.dropdown dt, 
+.dropdown ul { 
+	margin:0px; 
+	padding:0px; 	
+}
+.dropdown dd { 
+	position:relative; 
+}
+.dropdown a, .dropdown a:visited { 
+	color:#333; 
+	text-decoration:none; 
+	outline:none;	
+}
+.dropdown a:hover { 
+	color:#333;
+}
+.dropdown dt a {
+	display:block; 
+	padding:0 20px 0 5px;	
+	width:100px;
+	color:#333;
+	text-shadow:0 1px 1px #FFF;
+	margin:2px 0 0 50px;
+	background:#DBDBDB url('../img/arrows/select-arrow.png') no-repeat scroll 106px 12px; 	
+	border-radius:6px;
+	-moz-border-radius:6px;	
+	-webkit-border-radius:6px;	
+}
+.dropdown dt a span {
+	cursor:pointer; 
+	display:block; 
+	padding:4px;
+}
+.dropdown dd ul { 
+	background:#DBDBDB none repeat scroll 0 0; 
+	text-shadow:0 1px 1px #FFF;
+	color:#333; 
+	display:none;
+	padding:6px 20px 6px 5px;	
+	position:absolute; 
+	top:2px; 
+	left:50px;
+	width:100px; 
+	min-width:100px; 	
+	list-style:none;
+	border-radius:6px;
+	-moz-border-radius:6px;	
+	-webkit-border-radius:6px;	
+}
+.dropdown span.value { 
+	display:none;
+}
+.dropdown dd ul li a { 
+	padding:4px; 
+	display:block;
+}
+.dropdown dd ul li a:hover { 
+	background:#cbcbcb;
+	width:108px;
+}

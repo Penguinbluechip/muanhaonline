@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*AUTHOR: Mark Abucayon*/
+/*POSITION:Web Designer and Developer*/
+/*WEBSITE: http://mark.mabucplus.com*/
+
+@import url('main.css');
+@import url('class.css');
+@import url('reset.css');
+@import url('superfish.css');
+@import url('dropbox.css');
+@import url('switch.css');
+@import url('modal.css');
+@import url('datepicker.css');
+@import url('date-theme.css');
+@import url('../js/fancybox/jquery.fancybox-1.3.4.css');
+
+body{
+	background:#FFF url('../../img/home/bg2.jpg') repeat-x top center;
+}
+body#subpage{
+	background:#FFF url('../../img/home/bg-subpage2.jpg') repeat-x top center;
+}
